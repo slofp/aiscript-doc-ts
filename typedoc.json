@@ -1,0 +1,9 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPoints": ["lib/src/*.d.ts"],
+	"out": "docs",
+	"name": "AiScript Api Docs From ts",
+	"tsconfig": "lib/src/tsconfig.json",
+	"skipErrorChecking": true,
+	"plugin": ["typedoc-plugin-markdown"]
+}
