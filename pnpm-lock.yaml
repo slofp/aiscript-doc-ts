@@ -5,17 +5,29 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  docusaurus-plugin-typedoc:
-    specifier: 1.0.0-next.28
-    version: 1.0.0-next.28(typedoc-plugin-markdown@4.0.0-next.55)
+  '@types/node':
+    specifier: ^20.12.7
+    version: 20.12.7
   typedoc:
     specifier: ^0.25.13
     version: 0.25.13(typescript@5.4.5)
+  typedoc-plugin-frontmatter:
+    specifier: 1.0.0-next.1
+    version: 1.0.0-next.1(typedoc-plugin-markdown@4.0.0-next.55)
   typedoc-plugin-markdown:
     specifier: 4.0.0-next.55
     version: 4.0.0-next.55(typedoc@0.25.13)
+  typescript:
+    specifier: ^5.4.5
+    version: 5.4.5
 
 packages:
+
+  /@types/node@20.12.7:
+    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: true
 
   /ansi-sequence-parser@1.1.1:
     resolution: {integrity: sha512-vJXt3yiaUL4UU546s3rPXlsry/RnM730G1+HkpKE012AN0sx1eOrxSu95oKDIonskeLTijMgqWZ3uDEe3NFvyg==}
@@ -29,14 +41,6 @@ packages:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
     dependencies:
       balanced-match: 1.0.2
-    dev: true
-
-  /docusaurus-plugin-typedoc@1.0.0-next.28(typedoc-plugin-markdown@4.0.0-next.55):
-    resolution: {integrity: sha512-deuTv+FFhx5xMB/BIM409vDx+15LQrsHHpx4xtkJiQFsbKd3xkOKMaULNGHob+kSBSZvAffrEc251xbMw3JzEQ==}
-    peerDependencies:
-      typedoc-plugin-markdown: '>=4.0.0-next.45'
-    dependencies:
-      typedoc-plugin-markdown: 4.0.0-next.55(typedoc@0.25.13)
     dev: true
 
   /jsonc-parser@3.2.1:
@@ -69,6 +73,15 @@ packages:
       vscode-textmate: 8.0.0
     dev: true
 
+  /typedoc-plugin-frontmatter@1.0.0-next.1(typedoc-plugin-markdown@4.0.0-next.55):
+    resolution: {integrity: sha512-eUylePbs94uxdVGXwkf3VMD+xlE3FykEyQqIVeRWR8lh4ppnBa8arQqkWLYe1UMWnrAnpM/6kb7Aq6LcksrgDw==}
+    peerDependencies:
+      typedoc-plugin-markdown: '>=4.0.0-next.54'
+    dependencies:
+      typedoc-plugin-markdown: 4.0.0-next.55(typedoc@0.25.13)
+      yaml: 2.4.1
+    dev: true
+
   /typedoc-plugin-markdown@4.0.0-next.55(typedoc@0.25.13):
     resolution: {integrity: sha512-bwEEBkAP0kHnjE10QzPBXAri5yHYmgb+vZP+xn9GirBLCk3lt7SMUiUx0fj7lEtTmbgIH0rv20f3xP+JWxCPHg==}
     peerDependencies:
@@ -97,10 +110,20 @@ packages:
     hasBin: true
     dev: true
 
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
+
   /vscode-oniguruma@1.7.0:
     resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
     dev: true
 
   /vscode-textmate@8.0.0:
     resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
+    dev: true
+
+  /yaml@2.4.1:
+    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
+    engines: {node: '>= 14'}
+    hasBin: true
     dev: true
