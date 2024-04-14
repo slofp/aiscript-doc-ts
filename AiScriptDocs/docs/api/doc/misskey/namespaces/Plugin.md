@@ -4,7 +4,7 @@ title: Plugin
 
 # Plugin
 
-Misskeyプラグイン用ライブラリ
+Misskeyプラグイン用ライブラリ\
 `Plugin:`からアクセス可能です。
 
 ## Remarks
@@ -41,7 +41,7 @@ urlは同一オリジンであっても新規タブで開かれます。
 
 #### Source
 
-[misskey.d.ts:213](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L213)
+[misskey.d.ts:221](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L221)
 
 ***
 
@@ -66,7 +66,7 @@ register_note_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:185](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L185)
+[misskey.d.ts:193](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L193)
 
 ***
 
@@ -90,7 +90,7 @@ register_note_post_interruptor(fn): void
 
 #### Source
 
-[misskey.d.ts:201](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L201)
+[misskey.d.ts:209](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L209)
 
 ***
 
@@ -114,7 +114,7 @@ UIに表示されるノート情報を書き換えます。
 
 #### Source
 
-[misskey.d.ts:196](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L196)
+[misskey.d.ts:204](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L204)
 
 ***
 
@@ -138,7 +138,7 @@ UIに表示されるページ情報を書き換えます。
 
 #### Source
 
-[misskey.d.ts:206](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L206)
+[misskey.d.ts:214](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L214)
 
 ***
 
@@ -163,7 +163,7 @@ register_post_form_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:173](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L173)
+[misskey.d.ts:181](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L181)
 
 ***
 
@@ -188,4 +188,4 @@ register_user_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:191](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L191)
+[misskey.d.ts:199](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L199)

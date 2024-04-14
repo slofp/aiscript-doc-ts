@@ -9,7 +9,10 @@ type FontType: "serif" | "sans-serif" | "monospace";
 ```
 
 フォントタイプ
+- serif - 明朝体
+- sans-serif - ゴシック体
+- monospace - 等幅フォント
 
 ## Source
 
-[misskey.d.ts:239](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L239)
+[misskey.d.ts:365](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L365)

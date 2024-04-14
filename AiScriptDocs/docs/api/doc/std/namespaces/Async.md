@@ -4,7 +4,7 @@ title: Async
 
 # Async
 
-非同期処理関数Stdライブラリ
+非同期処理関数Stdライブラリ\
 `Async:`からアクセス可能です。
 
 ## 関数
@@ -33,9 +33,11 @@ interval(
 
 `fn`
 
+停止関数を返します
+
 #### Source
 
-[std.d.ts:869](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L869)
+[std.d.ts:879](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L879)
 
 ***
 
@@ -59,6 +61,8 @@ timeout(delay, callback): fn
 
 `fn`
 
+停止関数を返します
+
 #### Source
 
-[std.d.ts:876](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L876)
+[std.d.ts:887](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L887)

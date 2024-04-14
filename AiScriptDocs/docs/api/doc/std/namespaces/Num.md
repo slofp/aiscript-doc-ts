@@ -4,7 +4,7 @@ title: Num
 
 # Num
 
-Num型Stdライブラリ
+Num型Stdライブラリ\
 `Num:`からアクセス可能です。
 
 ## 関数
@@ -29,7 +29,7 @@ from_hex(hex): num
 
 #### Source
 
-[std.d.ts:728](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L728)
+[std.d.ts:737](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L737)
 
 ***
 
@@ -53,4 +53,4 @@ to_hex(x): str
 
 #### Source
 
-[std.d.ts:723](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L723)
+[std.d.ts:732](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L732)

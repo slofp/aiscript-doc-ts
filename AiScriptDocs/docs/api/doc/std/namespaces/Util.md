@@ -4,7 +4,7 @@ title: Util
 
 # Util
 
-便利関数系Stdライブラリ
+便利関数系Stdライブラリ\
 `Util:`からアクセス可能です。
 
 ## 関数
@@ -23,4 +23,4 @@ uuid(): str
 
 #### Source
 
-[std.d.ts:609](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L609)
+[std.d.ts:617](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L617)

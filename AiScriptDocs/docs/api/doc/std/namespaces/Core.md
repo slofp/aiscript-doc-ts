@@ -4,7 +4,7 @@ title: Core
 
 # Core
 
-コア系Stdライブラリ
+コア系Stdライブラリ\
 `Core:`からアクセス可能です。
 
 ## プロパティ
@@ -35,7 +35,7 @@ sleep(time): void
 
 #### Source
 
-[std.d.ts:579](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L579)
+[std.d.ts:587](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L587)
 
 ***
 
@@ -59,7 +59,7 @@ to_str(v): str
 
 #### Source
 
-[std.d.ts:574](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L574)
+[std.d.ts:582](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L582)
 
 ***
 
@@ -92,6 +92,8 @@ type(v):
   \| `"arr"`
   \| `"obj"`
 
+vで与えられた型の名前、str型が返ります。
+
 #### Source
 
-[std.d.ts:569](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L569)
+[std.d.ts:577](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L577)

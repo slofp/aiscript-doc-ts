@@ -37,7 +37,7 @@
 		"label.source": "Source",
 		"label.type": "型",
 		"label.typeDeclaration": "Type declaration",
-		"label.value": "値",
+		"label.value": "デフォルト値",
 		"kind.accessor.singular": "Accessor",
 		"kind.accessor.plural": "Accessors",
 		"kind.class.singular": "プリミティブプロパティ",

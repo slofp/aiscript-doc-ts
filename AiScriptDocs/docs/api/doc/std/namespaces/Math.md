@@ -4,7 +4,7 @@ title: Math
 
 # Math
 
-数学・数値計算関連標準ライブラリ
+数学・数値計算関連標準ライブラリ\
 `Math:`からアクセス可能です。
 
 ## プロパティ
@@ -43,7 +43,7 @@ abs(x): num
 
 #### Source
 
-[std.d.ts:363](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L363)
+[std.d.ts:366](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L366)
 
 ***
 
@@ -67,7 +67,7 @@ acos(x): num
 
 #### Source
 
-[std.d.ts:441](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L441)
+[std.d.ts:444](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L444)
 
 ***
 
@@ -91,7 +91,7 @@ acosh(x): num
 
 #### Source
 
-[std.d.ts:477](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L477)
+[std.d.ts:480](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L480)
 
 ***
 
@@ -115,7 +115,7 @@ asin(x): num
 
 #### Source
 
-[std.d.ts:436](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L436)
+[std.d.ts:439](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L439)
 
 ***
 
@@ -139,7 +139,7 @@ asinh(x): num
 
 #### Source
 
-[std.d.ts:472](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L472)
+[std.d.ts:475](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L475)
 
 ***
 
@@ -163,7 +163,7 @@ atan(x): num
 
 #### Source
 
-[std.d.ts:446](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L446)
+[std.d.ts:449](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L449)
 
 ***
 
@@ -188,7 +188,7 @@ y /x の正接を返しますが、x が負値の場合はπだけずれた値�
 
 #### Source
 
-[std.d.ts:452](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L452)
+[std.d.ts:455](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L455)
 
 ***
 
@@ -212,7 +212,7 @@ atanh(x): num
 
 #### Source
 
-[std.d.ts:482](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L482)
+[std.d.ts:485](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L485)
 
 ***
 
@@ -236,7 +236,7 @@ cbrt(x): num
 
 #### Source
 
-[std.d.ts:411](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L411)
+[std.d.ts:414](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L414)
 
 ***
 
@@ -260,7 +260,7 @@ ceil(x): num
 
 #### Source
 
-[std.d.ts:379](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L379)
+[std.d.ts:382](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L382)
 
 ***
 
@@ -284,7 +284,7 @@ xを32ビットのバイナリで表現したときの先頭の0の個数を返�
 
 #### Source
 
-[std.d.ts:537](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L537)
+[std.d.ts:544](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L544)
 
 ***
 
@@ -308,7 +308,7 @@ cos(rad): num
 
 #### Source
 
-[std.d.ts:426](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L426)
+[std.d.ts:429](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L429)
 
 ***
 
@@ -332,7 +332,7 @@ cosh(x): num
 
 #### Source
 
-[std.d.ts:462](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L462)
+[std.d.ts:465](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L465)
 
 ***
 
@@ -356,7 +356,7 @@ eの x 乗を計算します。
 
 #### Source
 
-[std.d.ts:493](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L493)
+[std.d.ts:496](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L496)
 
 ***
 
@@ -380,7 +380,7 @@ eの x 乗から1を引いた値を計算します。
 
 #### Source
 
-[std.d.ts:498](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L498)
+[std.d.ts:501](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L501)
 
 ***
 
@@ -404,7 +404,7 @@ floor(x): num
 
 #### Source
 
-[std.d.ts:384](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L384)
+[std.d.ts:387](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L387)
 
 ***
 
@@ -428,14 +428,14 @@ x を32ビットの浮動小数点数に変換した時の値を返します。
 
 #### Source
 
-[std.d.ts:542](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L542)
+[std.d.ts:549](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L549)
 
 ***
 
 ### gen\_rng()
 
 ```ts
-gen_rng(seed): () => num
+gen_rng(seed): (min?, max?) => num
 ```
 
 シードから乱数生成機を生成します。
@@ -450,6 +450,17 @@ gen_rng(seed): () => num
 
 `Function`
 
+乱数を生成する関数を返します。\
+min および max を渡した場合、min \<= x, x \<= max の整数、
+渡していない場合は 0 \<= x, x \< 1 の 小数が返されます。
+
+> ##### パラメーター
+>
+> | 引数 | 型 |
+> | :------ | :------ |
+> | `min`? | `num` |
+> | `max`? | `num` |
+>
 > ##### 返り値
 >
 > `num`
@@ -457,7 +468,7 @@ gen_rng(seed): () => num
 
 #### Source
 
-[std.d.ts:532](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L532)
+[std.d.ts:539](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L539)
 
 ***
 
@@ -481,7 +492,7 @@ vs の要素をそれぞれ自乗してから合計した値の正の平方根�
 
 #### Source
 
-[std.d.ts:416](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L416)
+[std.d.ts:419](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L419)
 
 ***
 
@@ -506,7 +517,7 @@ x と y に対しC言語風の32ビット乗算を行った結果を返します
 
 #### Source
 
-[std.d.ts:548](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L548)
+[std.d.ts:555](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L555)
 
 ***
 
@@ -530,7 +541,7 @@ log(x): num
 
 #### Source
 
-[std.d.ts:503](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L503)
+[std.d.ts:506](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L506)
 
 ***
 
@@ -554,7 +565,7 @@ log10(x): num
 
 #### Source
 
-[std.d.ts:513](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L513)
+[std.d.ts:516](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L516)
 
 ***
 
@@ -578,7 +589,7 @@ x +1の自然対数を計算します。
 
 #### Source
 
-[std.d.ts:508](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L508)
+[std.d.ts:511](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L511)
 
 ***
 
@@ -602,7 +613,7 @@ log2(x): num
 
 #### Source
 
-[std.d.ts:518](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L518)
+[std.d.ts:521](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L521)
 
 ***
 
@@ -627,7 +638,7 @@ max(a, b): num
 
 #### Source
 
-[std.d.ts:401](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L401)
+[std.d.ts:404](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L404)
 
 ***
 
@@ -652,7 +663,7 @@ min(a, b): num
 
 #### Source
 
-[std.d.ts:395](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L395)
+[std.d.ts:398](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L398)
 
 ***
 
@@ -677,7 +688,7 @@ x の y 乗を計算します。結果がNaNとなることを許容する点、
 
 #### Source
 
-[std.d.ts:488](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L488)
+[std.d.ts:491](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L491)
 
 ***
 
@@ -705,7 +716,7 @@ min および max を渡した場合、min \<= x, x \<= max の整数、
 
 #### Source
 
-[std.d.ts:527](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L527)
+[std.d.ts:530](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L530)
 
 ***
 
@@ -729,7 +740,7 @@ round(x): num
 
 #### Source
 
-[std.d.ts:374](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L374)
+[std.d.ts:377](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L377)
 
 ***
 
@@ -754,7 +765,7 @@ x が正であれば1、負であれば-1、0または-0であればそのまま
 
 #### Source
 
-[std.d.ts:369](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L369)
+[std.d.ts:372](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L372)
 
 ***
 
@@ -778,7 +789,7 @@ sin(rad): num
 
 #### Source
 
-[std.d.ts:421](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L421)
+[std.d.ts:424](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L424)
 
 ***
 
@@ -802,7 +813,7 @@ sinh(x): num
 
 #### Source
 
-[std.d.ts:457](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L457)
+[std.d.ts:460](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L460)
 
 ***
 
@@ -826,7 +837,7 @@ sqrt(x): num
 
 #### Source
 
-[std.d.ts:406](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L406)
+[std.d.ts:409](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L409)
 
 ***
 
@@ -850,7 +861,7 @@ tan(rad): num
 
 #### Source
 
-[std.d.ts:431](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L431)
+[std.d.ts:434](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L434)
 
 ***
 
@@ -874,7 +885,7 @@ tanh(x): num
 
 #### Source
 
-[std.d.ts:467](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L467)
+[std.d.ts:470](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L470)
 
 ***
 
@@ -898,4 +909,4 @@ trunc(x): num
 
 #### Source
 
-[std.d.ts:389](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L389)
+[std.d.ts:392](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L392)

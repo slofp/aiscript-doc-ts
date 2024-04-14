@@ -22,4 +22,4 @@ print(message): void
 
 ## Source
 
-[std.d.ts:592](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L592)
+[std.d.ts:600](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L600)

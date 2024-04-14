@@ -4,7 +4,7 @@ title: Json
 
 # Json
 
-Json処理系Stdライブラリ
+Json処理系Stdライブラリ\
 `Json:`からアクセス可能です。
 
 ## 関数
@@ -29,7 +29,7 @@ parsable(str): bool
 
 #### Source
 
-[std.d.ts:636](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L636)
+[std.d.ts:645](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L645)
 
 ***
 
@@ -39,7 +39,7 @@ parsable(str): bool
 parse(json): any
 ```
 
-JSONをパースします。 引数がJSONとしてパース可能性でない場合、エラー型の値（name='not_json'）を返します。
+JSONをパースします。
 
 #### パラメーター
 
@@ -51,9 +51,11 @@ JSONをパースします。 引数がJSONとしてパース可能性でない�
 
 `any`
 
+パースされたjsonのobj型を返します。引数がJSONとしてパース可能性でない場合、エラー型の値（name='not_json'）を返します。
+
 #### Source
 
-[std.d.ts:631](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L631)
+[std.d.ts:640](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L640)
 
 ***
 
@@ -77,4 +79,4 @@ JSONを生成します。
 
 #### Source
 
-[std.d.ts:626](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L626)
+[std.d.ts:634](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L634)

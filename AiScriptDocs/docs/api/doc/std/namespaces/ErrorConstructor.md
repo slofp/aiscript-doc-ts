@@ -4,7 +4,7 @@ title: Error
 
 # Error
 
-Error型Stdライブラリ
+Error型Stdライブラリ\
 `Error:`からアクセス可能です。
 
 ## 関数
@@ -30,4 +30,4 @@ create(name, info?): error
 
 #### Source
 
-[std.d.ts:849](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L849)
+[std.d.ts:858](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L858)

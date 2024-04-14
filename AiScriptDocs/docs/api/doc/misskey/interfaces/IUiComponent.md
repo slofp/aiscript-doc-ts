@@ -4,15 +4,15 @@ title: IUiComponent
 
 # IUiComponent{"<"}T, I>
 
-Uiコンポーネントインターフェース
+Uiコンポーネントインターフェース\
 Uiコンポーネントは共通してこれらの変数と関数を保持しています。
 
 ## 型引数
 
-| 型引数 | 値 |
-| :------ | :------ |
-| `T` extends `obj` | - |
-| `I` extends `str` | `str` |
+| 型引数 | デフォルト値 | 説明 |
+| :------ | :------ | :------ |
+| `T` extends `ComponentOption` | - | 各コンポーネントのパラメータータイプ |
+| `I` extends `str` | `str` | - |
 
 ## プロパティ
 
@@ -42,4 +42,4 @@ update(options): void
 
 #### Source
 
-[misskey.d.ts:234](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L234)
+[misskey.d.ts:243](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L243)

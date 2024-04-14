@@ -1,10 +1,10 @@
 ---
-title: Component
+title: Ui:C
 ---
 
-# Component
+# Ui:C
 
-MisskeyUIコンポーネントライブラリ
+MisskeyUIコンポーネントライブラリ\
 `Ui:C:`からアクセス可能です。
 
 ## Remarks
@@ -16,7 +16,7 @@ MisskeyUIコンポーネントライブラリ
 ### button()
 
 ```ts
-button(options, id?): IUiComponent<object, str>
+button(options, id?): IUiComponent<ButtonComponentOption, str>
 ```
 
 ボタンコンポーネント
@@ -25,63 +25,23 @@ button(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.disabled`? | `bool` | - |
-| `options.onClick`? | () => `void` | - |
-| `options.primary`? | `bool` | - |
-| `options.rounded`? | `bool` | - |
-| `options.text`? | `str` | - |
+| `options` | [`ButtonComponentOption`](../interfaces/ButtonComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### disabled?
->
-> ```ts
-> optional disabled: bool;
-> ```
->
-> ##### onClick()?
->
-> ```ts
-> optional onClick: () => void;
-> ```
->
-> ###### 返り値
->
-> `void`
->
-> ##### primary?
->
-> ```ts
-> optional primary: bool;
-> ```
->
-> ##### rounded?
->
-> ```ts
-> optional rounded: bool;
-> ```
->
-> ##### text?
->
-> ```ts
-> optional text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`ButtonComponentOption`](../interfaces/ButtonComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:333](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L333)
+[misskey.d.ts:427](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L427)
 
 ***
 
 ### buttons()
 
 ```ts
-buttons(options, id?): IUiComponent<object, str>
+buttons(options, id?): IUiComponent<ButtonsComponentOption, str>
 ```
 
 複数ボタンコンポーネント
@@ -90,67 +50,23 @@ buttons(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.buttons`? | `arr`\<`object`\> | - |
+| `options` | [`ButtonsComponentOption`](../interfaces/ButtonsComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### buttons?
->
-> ```ts
-> optional buttons: arr<object>;
-> ```
->
-> ###### Type declaration
->
-> ###### disabled?
->
-> ```ts
-> optional disabled: bool;
-> ```
->
-> ###### onClick()?
->
-> ```ts
-> optional onClick: () => void;
-> ```
->
-> ###### 返り値
->
-> `void`
->
-> ###### primary?
->
-> ```ts
-> optional primary: bool;
-> ```
->
-> ###### rounded?
->
-> ```ts
-> optional rounded: bool;
-> ```
->
-> ###### text?
->
-> ```ts
-> optional text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`ButtonsComponentOption`](../interfaces/ButtonsComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:345](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L345)
+[misskey.d.ts:433](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L433)
 
 ***
 
 ### container()
 
 ```ts
-container(options, id?): IUiComponent<object, str>
+container(options, id?): IUiComponent<ContainerComponentOption, str>
 ```
 
 コンテナコンポーネント
@@ -159,94 +75,23 @@ container(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.align`? | `"left"` \| `"center"` \| `"right"` | - |
-| `options.bgColor`? | `str` | - |
-| `options.borderColor`? | `str` | - |
-| `options.borderWidth`? | `num` | - |
-| `options.children`? | `arr`\<[`IUiComponent`](../interfaces/IUiComponent.md)\<`obj`, `str`\>\> | - |
-| `options.fgColor`? | `str` | - |
-| `options.font`? | [`FontType`](../type-aliases/FontType.md) | - |
-| `options.hidden`? | `bool` | - |
-| `options.padding`? | `num` | - |
-| `options.rounded`? | `bool` | - |
+| `options` | [`ContainerComponentOption`](../interfaces/ContainerComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### align?
->
-> ```ts
-> optional align: "left" | "center" | "right";
-> ```
->
-> ##### bgColor?
->
-> ```ts
-> optional bgColor: str;
-> ```
->
-> ##### borderColor?
->
-> ```ts
-> optional borderColor: str;
-> ```
->
-> ##### borderWidth?
->
-> ```ts
-> optional borderWidth: num;
-> ```
->
-> ##### children?
->
-> ```ts
-> optional children: arr<IUiComponent<obj, str>>;
-> ```
->
-> ##### fgColor?
->
-> ```ts
-> optional fgColor: str;
-> ```
->
-> ##### font?
->
-> ```ts
-> optional font: FontType;
-> ```
->
-> ##### hidden?
->
-> ```ts
-> optional hidden: bool;
-> ```
->
-> ##### padding?
->
-> ```ts
-> optional padding: num;
-> ```
->
-> ##### rounded?
->
-> ```ts
-> optional rounded: bool;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`ContainerComponentOption`](../interfaces/ContainerComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:258](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L258)
+[misskey.d.ts:391](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L391)
 
 ***
 
 ### folder()
 
 ```ts
-folder(options, id?): IUiComponent<object, str>
+folder(options, id?): IUiComponent<FolderComponentOption, str>
 ```
 
 フォルダーコンポーネント
@@ -255,45 +100,23 @@ folder(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.children`? | [`IUiComponent`](../interfaces/IUiComponent.md)\<`obj`, `str`\> | - |
-| `options.opened`? | `bool` | - |
-| `options.title`? | `str` | - |
+| `options` | [`FolderComponentOption`](../interfaces/FolderComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### children?
->
-> ```ts
-> optional children: IUiComponent<obj, str>;
-> ```
->
-> ##### opened?
->
-> ```ts
-> optional opened: bool;
-> ```
->
-> ##### title?
->
-> ```ts
-> optional title: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`FolderComponentOption`](../interfaces/FolderComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:376](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L376)
+[misskey.d.ts:451](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L451)
 
 ***
 
 ### mfm()
 
 ```ts
-mfm(options, id?): IUiComponent<object, str>
+mfm(options, id?): IUiComponent<MfmComponentOption, str>
 ```
 
 MFMテキストコンポーネント
@@ -302,76 +125,23 @@ MFMテキストコンポーネント
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.bold`? | `bool` | - |
-| `options.color`? | `str` | - |
-| `options.font`? | [`FontType`](../type-aliases/FontType.md) | - |
-| `options.onClickEv`? | (`evName`) => `void` | - |
-| `options.size`? | `num` | - |
-| `options.text`? | `str` | - |
+| `options` | [`MfmComponentOption`](../interfaces/MfmComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### bold?
->
-> ```ts
-> optional bold: bool;
-> ```
->
-> ##### color?
->
-> ```ts
-> optional color: str;
-> ```
->
-> ##### font?
->
-> ```ts
-> optional font: FontType;
-> ```
->
-> ##### onClickEv()?
->
-> ```ts
-> optional onClickEv: (evName) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `evName` | `str` |
->
-> ###### 返り値
->
-> `void`
->
-> ##### size?
->
-> ```ts
-> optional size: num;
-> ```
->
-> ##### text?
->
-> ```ts
-> optional text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`MfmComponentOption`](../interfaces/MfmComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:287](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L287)
+[misskey.d.ts:403](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L403)
 
 ***
 
 ### numberInput()
 
 ```ts
-numberInput(options, id?): IUiComponent<object, str>
+numberInput(options, id?): IUiComponent<NumberInputComponentOption, str>
 ```
 
 数値入力コンポーネント
@@ -380,62 +150,23 @@ numberInput(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.caption`? | `str` | - |
-| `options.default`? | `num` | - |
-| `options.label`? | `str` | - |
-| `options.onInput`? | (`value`) => `void` | - |
+| `options` | [`NumberInputComponentOption`](../interfaces/NumberInputComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### caption?
->
-> ```ts
-> optional caption: str;
-> ```
->
-> ##### default?
->
-> ```ts
-> optional default: num;
-> ```
->
-> ##### label?
->
-> ```ts
-> optional label: str;
-> ```
->
-> ##### onInput()?
->
-> ```ts
-> optional onInput: (value) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `value` | `num` |
->
-> ###### 返り値
->
-> `void`
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`NumberInputComponentOption`](../interfaces/NumberInputComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:322](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L322)
+[misskey.d.ts:421](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L421)
 
 ***
 
 ### postForm()
 
 ```ts
-postForm(options, id?): IUiComponent<object, str>
+postForm(options, id?): IUiComponent<PostFormComponentOption, str>
 ```
 
 投稿フォーム(そのもの)コンポーネント
@@ -444,38 +175,23 @@ postForm(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.form`? | `object` | - |
-| `options.form.text`? | `str` | - |
+| `options` | [`PostFormComponentOption`](../interfaces/PostFormComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### form?
->
-> ```ts
-> optional form: object;
-> ```
->
-> ##### form.text
->
-> ```ts
-> text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`PostFormComponentOption`](../interfaces/PostFormComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:397](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L397)
+[misskey.d.ts:463](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L463)
 
 ***
 
 ### postFormButton()
 
 ```ts
-postFormButton(options, id?): IUiComponent<object, str>
+postFormButton(options, id?): IUiComponent<PostFormButtonComponentOption, str>
 ```
 
 投稿フォーム表示ボタンコンポーネント
@@ -484,59 +200,23 @@ postFormButton(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.form`? | `object` | - |
-| `options.form.text`? | `str` | - |
-| `options.primary`? | `bool` | - |
-| `options.rounded`? | `bool` | - |
-| `options.text`? | `str` | - |
+| `options` | [`PostFormButtonComponentOption`](../interfaces/PostFormButtonComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### form?
->
-> ```ts
-> optional form: object;
-> ```
->
-> ##### form.text
->
-> ```ts
-> text: str;
-> ```
->
-> ##### primary?
->
-> ```ts
-> optional primary: bool;
-> ```
->
-> ##### rounded?
->
-> ```ts
-> optional rounded: bool;
-> ```
->
-> ##### text?
->
-> ```ts
-> optional text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`PostFormButtonComponentOption`](../interfaces/PostFormButtonComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:386](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L386)
+[misskey.d.ts:457](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L457)
 
 ***
 
 ### select()
 
 ```ts
-select(options, id?): IUiComponent<object, str>
+select(options, id?): IUiComponent<SelectComponentOption, str>
 ```
 
 プルダウンコンポーネント
@@ -545,83 +225,23 @@ select(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.caption`? | `str` | - |
-| `options.default`? | `str` | - |
-| `options.items`? | `arr`\<`object`\> | - |
-| `options.label`? | `str` | - |
-| `options.onChange`? | (`value`) => `void` | - |
+| `options` | [`SelectComponentOption`](../interfaces/SelectComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### caption?
->
-> ```ts
-> optional caption: str;
-> ```
->
-> ##### default?
->
-> ```ts
-> optional default: str;
-> ```
->
-> ##### items?
->
-> ```ts
-> optional items: arr<object>;
-> ```
->
-> ###### Type declaration
->
-> ###### text
->
-> ```ts
-> text: str;
-> ```
->
-> ###### value
->
-> ```ts
-> value: str;
-> ```
->
-> ##### label?
->
-> ```ts
-> optional label: str;
-> ```
->
-> ##### onChange()?
->
-> ```ts
-> optional onChange: (value) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `value` | `str` |
->
-> ###### 返り値
->
-> `void`
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`SelectComponentOption`](../interfaces/SelectComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:364](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L364)
+[misskey.d.ts:445](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L445)
 
 ***
 
 ### switch()
 
 ```ts
-switch(options, id?): IUiComponent<object, str>
+switch(options, id?): IUiComponent<SwitchComponentOption, str>
 ```
 
 スイッチコンポーネント
@@ -630,62 +250,23 @@ switch(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.caption`? | `str` | - |
-| `options.default`? | `bool` | - |
-| `options.label`? | `str` | - |
-| `options.onChange`? | (`value`) => `void` | - |
+| `options` | [`SwitchComponentOption`](../interfaces/SwitchComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### caption?
->
-> ```ts
-> optional caption: str;
-> ```
->
-> ##### default?
->
-> ```ts
-> optional default: bool;
-> ```
->
-> ##### label?
->
-> ```ts
-> optional label: str;
-> ```
->
-> ##### onChange()?
->
-> ```ts
-> optional onChange: (value) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `value` | `bool` |
->
-> ###### 返り値
->
-> `void`
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`SwitchComponentOption`](../interfaces/SwitchComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:353](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L353)
+[misskey.d.ts:439](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L439)
 
 ***
 
 ### text()
 
 ```ts
-text(options, id?): IUiComponent<object, str>
+text(options, id?): IUiComponent<TextComponentOption, str>
 ```
 
 標準テキストコンポーネント
@@ -694,59 +275,23 @@ text(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.bold`? | `bool` | - |
-| `options.color`? | `str` | - |
-| `options.font`? | [`FontType`](../type-aliases/FontType.md) | - |
-| `options.size`? | `num` | - |
-| `options.text`? | `str` | - |
+| `options` | [`TextComponentOption`](../interfaces/TextComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### bold?
->
-> ```ts
-> optional bold: bool;
-> ```
->
-> ##### color?
->
-> ```ts
-> optional color: str;
-> ```
->
-> ##### font?
->
-> ```ts
-> optional font: FontType;
-> ```
->
-> ##### size?
->
-> ```ts
-> optional size: num;
-> ```
->
-> ##### text?
->
-> ```ts
-> optional text: str;
-> ```
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`TextComponentOption`](../interfaces/TextComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:275](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L275)
+[misskey.d.ts:397](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L397)
 
 ***
 
 ### textInput()
 
 ```ts
-textInput(options, id?): IUiComponent<object, str>
+textInput(options, id?): IUiComponent<TextInputComponentOption, str>
 ```
 
 1行テキスト入力コンポーネント
@@ -755,62 +300,23 @@ textInput(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.caption`? | `str` | - |
-| `options.default`? | `str` | - |
-| `options.label`? | `str` | - |
-| `options.onInput`? | (`value`) => `void` | - |
+| `options` | [`TextInputComponentOption`](../interfaces/TextInputComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### caption?
->
-> ```ts
-> optional caption: str;
-> ```
->
-> ##### default?
->
-> ```ts
-> optional default: str;
-> ```
->
-> ##### label?
->
-> ```ts
-> optional label: str;
-> ```
->
-> ##### onInput()?
->
-> ```ts
-> optional onInput: (value) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `value` | `str` |
->
-> ###### 返り値
->
-> `void`
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`TextInputComponentOption`](../interfaces/TextInputComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:311](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L311)
+[misskey.d.ts:415](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L415)
 
 ***
 
 ### textarea()
 
 ```ts
-textarea(options, id?): IUiComponent<object, str>
+textarea(options, id?): IUiComponent<TextareaComponentOption, str>
 ```
 
 複数行テキスト入力コンポーネント
@@ -819,52 +325,13 @@ textarea(options, id?): IUiComponent<object, str>
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `options` | `object` | パラメーター |
-| `options.caption`? | `str` | - |
-| `options.default`? | `str` | - |
-| `options.label`? | `str` | - |
-| `options.onInput`? | (`value`) => `void` | - |
+| `options` | [`TextareaComponentOption`](../interfaces/TextareaComponentOption.md) | パラメーター |
 | `id`? | `str` | コンポーネントID(必要であれば) |
 
 #### 返り値
 
-[`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `str`\>
-
-> ##### caption?
->
-> ```ts
-> optional caption: str;
-> ```
->
-> ##### default?
->
-> ```ts
-> optional default: str;
-> ```
->
-> ##### label?
->
-> ```ts
-> optional label: str;
-> ```
->
-> ##### onInput()?
->
-> ```ts
-> optional onInput: (value) => void;
-> ```
->
-> ###### パラメーター
->
-> | 引数 | 型 |
-> | :------ | :------ |
-> | `value` | `str` |
->
-> ###### 返り値
->
-> `void`
->
+[`IUiComponent`](../interfaces/IUiComponent.md)\<[`TextareaComponentOption`](../interfaces/TextareaComponentOption.md), `str`\>
 
 #### Source
 
-[misskey.d.ts:300](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L300)
+[misskey.d.ts:409](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L409)

@@ -4,13 +4,13 @@ title: str
 
 # str
 
-文字列
+文字列型プリミティブプロパティ
 
 ## プロパティ
 
 | プロパティ | 型 | 説明 |
 | :------ | :------ | :------ |
-| `len` | `num` | 文字列の長さを取得します。 |
+| `len` | `num` | 文字列の長さ |
 
 ## 関数
 
@@ -39,7 +39,7 @@ i 番目の文字が存在しない場合は null が返されます。
 
 #### Source
 
-[std.d.ts:144](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L144)
+[std.d.ts:146](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L146)
 
 ***
 
@@ -68,7 +68,7 @@ i 番目の文字が存在しない場合は null が返されます。
 
 #### Source
 
-[std.d.ts:154](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L154)
+[std.d.ts:156](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L156)
 
 ***
 
@@ -92,7 +92,7 @@ incl(keyword): bool
 
 #### Source
 
-[std.d.ts:99](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L99)
+[std.d.ts:101](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L101)
 
 ***
 
@@ -116,7 +116,7 @@ index_of(search): num
 
 #### Source
 
-[std.d.ts:122](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L122)
+[std.d.ts:124](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L124)
 
 ***
 
@@ -134,7 +134,7 @@ lower(): str
 
 #### Source
 
-[std.d.ts:134](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L134)
+[std.d.ts:136](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L136)
 
 ***
 
@@ -158,7 +158,7 @@ pick(i): str
 
 #### Source
 
-[std.d.ts:94](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L94)
+[std.d.ts:96](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L96)
 
 ***
 
@@ -183,7 +183,7 @@ replace(old, _new): str
 
 #### Source
 
-[std.d.ts:117](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L117)
+[std.d.ts:119](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L119)
 
 ***
 
@@ -208,7 +208,7 @@ slice(begin, end): str
 
 #### Source
 
-[std.d.ts:105](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L105)
+[std.d.ts:107](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L107)
 
 ***
 
@@ -233,7 +233,7 @@ splitter が与えられなければ一文字づつ区切ります。
 
 #### Source
 
-[std.d.ts:111](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L111)
+[std.d.ts:113](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L113)
 
 ***
 
@@ -252,7 +252,7 @@ to_arr(): arr<str>
 
 #### Source
 
-[std.d.ts:64](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L64)
+[std.d.ts:66](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L66)
 
 ***
 
@@ -271,7 +271,7 @@ to_char_arr(): arr<str>
 
 #### Source
 
-[std.d.ts:80](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L80)
+[std.d.ts:82](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L82)
 
 ***
 
@@ -290,7 +290,7 @@ to_charcode_arr(): arr<num>
 
 #### Source
 
-[std.d.ts:85](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L85)
+[std.d.ts:87](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L87)
 
 ***
 
@@ -306,9 +306,11 @@ to_num(): num
 
 `num`
 
+変換ができた場合はnum、出来なかった場合はnullが返ります
+
 #### Source
 
-[std.d.ts:59](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L59)
+[std.d.ts:61](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L61)
 
 ***
 
@@ -328,7 +330,7 @@ to_unicode_arr(): arr<str>
 
 #### Source
 
-[std.d.ts:70](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L70)
+[std.d.ts:72](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L72)
 
 ***
 
@@ -347,7 +349,7 @@ to_unicode_codepoint_arr(): arr<num>
 
 #### Source
 
-[std.d.ts:75](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L75)
+[std.d.ts:77](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L77)
 
 ***
 
@@ -365,7 +367,7 @@ to_utf8_byte_arr(): arr<num>
 
 #### Source
 
-[std.d.ts:89](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L89)
+[std.d.ts:91](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L91)
 
 ***
 
@@ -383,7 +385,7 @@ trim(): str
 
 #### Source
 
-[std.d.ts:126](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L126)
+[std.d.ts:128](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L128)
 
 ***
 
@@ -401,4 +403,4 @@ upper(): str
 
 #### Source
 
-[std.d.ts:130](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L130)
+[std.d.ts:132](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L132)

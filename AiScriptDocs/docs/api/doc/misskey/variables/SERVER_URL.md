@@ -14,4 +14,4 @@ const SERVER_URL: str;
 
 ## Source
 
-[misskey.d.ts:78](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L78)
+[misskey.d.ts:81](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L81)

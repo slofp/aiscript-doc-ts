@@ -4,13 +4,13 @@ title: arr
 
 # arr{"<"}T>
 
-配列
+配列型プリミティブプロパティ
 
 ## 型引数
 
-| 型引数 |
-| :------ |
-| `T` |
+| 型引数 | 説明 |
+| :------ | :------ |
+| `T` | 任意の型 |
 
 ## プロパティ
 
@@ -46,7 +46,7 @@ concat<U>(b): arr<T | U>
 
 #### Source
 
-[std.d.ts:233](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L233)
+[std.d.ts:236](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L236)
 
 ***
 
@@ -64,7 +64,7 @@ copy(): arr<T>
 
 #### Source
 
-[std.d.ts:283](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L283)
+[std.d.ts:286](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L286)
 
 ***
 
@@ -88,7 +88,7 @@ filter(func): arr<T>
 
 #### Source
 
-[std.d.ts:259](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L259)
+[std.d.ts:262](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L262)
 
 ***
 
@@ -112,7 +112,7 @@ find(func): T
 
 #### Source
 
-[std.d.ts:273](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L273)
+[std.d.ts:276](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L276)
 
 ***
 
@@ -136,7 +136,7 @@ incl(i): bool
 
 #### Source
 
-[std.d.ts:249](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L249)
+[std.d.ts:252](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L252)
 
 ***
 
@@ -160,7 +160,7 @@ join(joiner?): str
 
 #### Source
 
-[std.d.ts:238](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L238)
+[std.d.ts:241](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L241)
 
 ***
 
@@ -190,7 +190,7 @@ map<R>(func): arr<R>
 
 #### Source
 
-[std.d.ts:254](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L254)
+[std.d.ts:257](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L257)
 
 ***
 
@@ -210,7 +210,7 @@ pop(): T
 
 #### Source
 
-[std.d.ts:222](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L222)
+[std.d.ts:225](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L225)
 
 ***
 
@@ -236,7 +236,7 @@ push(i): void
 
 #### Source
 
-[std.d.ts:209](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L209)
+[std.d.ts:212](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L212)
 
 ***
 
@@ -264,7 +264,7 @@ initial が指定された場合は初回呼び出しの引数が(initial, v[0],
 
 #### Source
 
-[std.d.ts:268](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L268)
+[std.d.ts:271](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L271)
 
 ***
 
@@ -284,7 +284,7 @@ reverse(): null
 
 #### Source
 
-[std.d.ts:279](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L279)
+[std.d.ts:282](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L282)
 
 ***
 
@@ -304,7 +304,7 @@ shift(): T
 
 #### Source
 
-[std.d.ts:228](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L228)
+[std.d.ts:231](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L231)
 
 ***
 
@@ -329,7 +329,7 @@ slice(begin, end): arr<T>
 
 #### Source
 
-[std.d.ts:244](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L244)
+[std.d.ts:247](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L247)
 
 ***
 
@@ -364,7 +364,7 @@ a が b と順番的に同等の時、0を返す
 
 #### Source
 
-[std.d.ts:299](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L299)
+[std.d.ts:302](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L302)
 
 ***
 
@@ -390,4 +390,4 @@ unshift(i): void
 
 #### Source
 
-[std.d.ts:216](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L216)
+[std.d.ts:219](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L219)

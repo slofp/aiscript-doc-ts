@@ -4,7 +4,7 @@ title: Obj
 
 # Obj
 
-Obj型Stdライブラリ
+Obj型Stdライブラリ\
 `Obj:`からアクセス可能です。
 
 ## 関数
@@ -29,7 +29,7 @@ copy(v): obj
 
 #### Source
 
-[std.d.ts:825](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L825)
+[std.d.ts:834](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L834)
 
 ***
 
@@ -54,7 +54,7 @@ get(v, key): any
 
 #### Source
 
-[std.d.ts:807](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L807)
+[std.d.ts:816](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L816)
 
 ***
 
@@ -79,7 +79,7 @@ has(v, key): bool
 
 #### Source
 
-[std.d.ts:820](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L820)
+[std.d.ts:829](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L829)
 
 ***
 
@@ -103,7 +103,7 @@ keys(v): arr<str>
 
 #### Source
 
-[std.d.ts:790](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L790)
+[std.d.ts:799](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L799)
 
 ***
 
@@ -127,7 +127,7 @@ kvs(v): arr<[str, any]>
 
 #### Source
 
-[std.d.ts:801](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L801)
+[std.d.ts:810](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L810)
 
 ***
 
@@ -152,7 +152,7 @@ merge(o1, o2): obj
 
 #### Source
 
-[std.d.ts:831](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L831)
+[std.d.ts:840](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L840)
 
 ***
 
@@ -181,7 +181,7 @@ set(
 
 #### Source
 
-[std.d.ts:814](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L814)
+[std.d.ts:823](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L823)
 
 ***
 
@@ -213,7 +213,7 @@ vals<T>(v): arr<T>
 
 ##### Source
 
-[std.d.ts:795](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L795)
+[std.d.ts:804](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L804)
 
 #### vals(v)
 
@@ -233,4 +233,4 @@ vals(v): arr<any>
 
 ##### Source
 
-[std.d.ts:796](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/std.d.ts#L796)
+[std.d.ts:805](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L805)

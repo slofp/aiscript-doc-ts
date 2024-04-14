@@ -4,7 +4,7 @@ title: Mk
 
 # Mk
 
-Misskeyメインライブラリ
+Misskeyメインライブラリ\
 `Mk:`からアクセス可能です。
 
 ## 関数
@@ -36,7 +36,7 @@ api(
 
 #### Source
 
-[misskey.d.ts:125](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L125)
+[misskey.d.ts:133](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L133)
 
 ***
 
@@ -48,6 +48,8 @@ confirm(
    text, 
    type?): bool
 ```
+
+確認ダイアログを表示します
 
 #### パラメーター
 
@@ -65,7 +67,7 @@ confirm(
 
 #### Source
 
-[misskey.d.ts:116](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L116)
+[misskey.d.ts:124](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L124)
 
 ***
 
@@ -94,7 +96,7 @@ dialog(
 
 #### Source
 
-[misskey.d.ts:108](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L108)
+[misskey.d.ts:116](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L116)
 
 ***
 
@@ -118,7 +120,7 @@ load(key): any
 
 #### Source
 
-[misskey.d.ts:136](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L136)
+[misskey.d.ts:144](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L144)
 
 ***
 
@@ -142,7 +144,7 @@ nyaize(text): str
 
 #### Source
 
-[misskey.d.ts:147](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L147)
+[misskey.d.ts:155](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L155)
 
 ***
 
@@ -167,7 +169,7 @@ save(key, value): null
 
 #### Source
 
-[misskey.d.ts:131](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L131)
+[misskey.d.ts:139](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L139)
 
 ***
 
@@ -187,4 +189,4 @@ url(): str
 
 #### Source
 
-[misskey.d.ts:142](https://github.com/slofp/aitslib/blob/1ed98771d7c48e377ec0f281f31b5b28ab0eeca0/src/misskey.d.ts#L142)
+[misskey.d.ts:150](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L150)

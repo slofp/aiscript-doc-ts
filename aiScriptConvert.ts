@@ -87,6 +87,9 @@ export function load(app: Application) {
 			if (page.model.name === 'ErrorConstructor') {
 				page.model.name = 'Error';
 			}
+			else if (page.model.name === 'Component') {
+				page.model.name = 'Ui:C';
+			}
 		}
 		else {
 			const primName = cm.getTag(aiScriptPrimitiveProp)?.content[0].text.trim();
