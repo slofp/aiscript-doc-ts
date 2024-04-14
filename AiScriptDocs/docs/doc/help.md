@@ -6,4 +6,4 @@ sidebar_position: 3
 
 ## エラーが発生したら
 
-AiScriptのエラーは
+作成中
