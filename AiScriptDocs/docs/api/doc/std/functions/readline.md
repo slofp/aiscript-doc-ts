@@ -22,4 +22,4 @@ readline(message): str
 
 ## Source
 
-[std.d.ts:606](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L606)
+[std.d.ts:606](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L606)

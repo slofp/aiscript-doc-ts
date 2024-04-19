@@ -36,7 +36,7 @@ api(
 
 #### Source
 
-[misskey.d.ts:133](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L133)
+[misskey.d.ts:133](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L133)
 
 ***
 
@@ -67,7 +67,7 @@ confirm(
 
 #### Source
 
-[misskey.d.ts:124](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L124)
+[misskey.d.ts:124](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L124)
 
 ***
 
@@ -96,7 +96,7 @@ dialog(
 
 #### Source
 
-[misskey.d.ts:116](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L116)
+[misskey.d.ts:116](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L116)
 
 ***
 
@@ -120,7 +120,7 @@ load(key): any
 
 #### Source
 
-[misskey.d.ts:144](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L144)
+[misskey.d.ts:144](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L144)
 
 ***
 
@@ -144,7 +144,7 @@ nyaize(text): str
 
 #### Source
 
-[misskey.d.ts:155](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L155)
+[misskey.d.ts:155](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L155)
 
 ***
 
@@ -169,7 +169,7 @@ save(key, value): null
 
 #### Source
 
-[misskey.d.ts:139](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L139)
+[misskey.d.ts:139](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L139)
 
 ***
 
@@ -189,4 +189,4 @@ url(): str
 
 #### Source
 
-[misskey.d.ts:150](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L150)
+[misskey.d.ts:150](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L150)

@@ -5,7 +5,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
     title: "AiScript Documentation",
     tagline: "AiScriptの非公式ドキュメント",
-    favicon: "img/favicon.ico",
 
     // Set the production url of your site here
     url: "https://slofp.github.io",
@@ -57,7 +56,6 @@ const config: Config = {
         colorMode: {
             defaultMode: "dark",
         },
-        image: "img/docusaurus-social-card.jpg",
         navbar: {
             hideOnScroll: true,
             title: "AiScript Documentation",

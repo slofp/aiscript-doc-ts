@@ -41,7 +41,7 @@ urlは同一オリジンであっても新規タブで開かれます。
 
 #### Source
 
-[misskey.d.ts:221](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L221)
+[misskey.d.ts:221](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L221)
 
 ***
 
@@ -66,7 +66,7 @@ register_note_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:193](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L193)
+[misskey.d.ts:193](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L193)
 
 ***
 
@@ -90,7 +90,7 @@ register_note_post_interruptor(fn): void
 
 #### Source
 
-[misskey.d.ts:209](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L209)
+[misskey.d.ts:209](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L209)
 
 ***
 
@@ -114,7 +114,7 @@ UIに表示されるノート情報を書き換えます。
 
 #### Source
 
-[misskey.d.ts:204](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L204)
+[misskey.d.ts:204](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L204)
 
 ***
 
@@ -138,7 +138,7 @@ UIに表示されるページ情報を書き換えます。
 
 #### Source
 
-[misskey.d.ts:214](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L214)
+[misskey.d.ts:214](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L214)
 
 ***
 
@@ -163,7 +163,7 @@ register_post_form_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:181](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L181)
+[misskey.d.ts:181](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L181)
 
 ***
 
@@ -188,4 +188,4 @@ register_user_action(title, fn): void
 
 #### Source
 
-[misskey.d.ts:199](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L199)
+[misskey.d.ts:199](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L199)

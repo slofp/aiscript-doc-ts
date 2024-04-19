@@ -16,7 +16,7 @@ MisskeyUIライブラリ\
 | プロパティ | Modifier | 型 | 説明 |
 | :------ | :------ | :------ | :------ |
 | `C` | `readonly` | [`Ui:C`](Component.md) | MisskeyUIコンポーネントライブラリ<br />`Ui:C:`からアクセス可能です。<br /><br />**Remarks**<br />このライブラリはプラグインでは使用できません。 |
-| `root` | `readonly` | [`IUiComponent`](../interfaces/IUiComponent.md)\<`object`, `"___root___"`\> | rootコンポーネント |
+| `root` | `readonly` | [`IUiComponent`](../interfaces/IUiComponent.md)\<[`RootComponentOption`](../interfaces/RootComponentOption.md), `"___root___"`\> | rootコンポーネント |
 
 ## 関数
 
@@ -40,7 +40,7 @@ get(id): IUiComponent<obj, str>
 
 #### Source
 
-[misskey.d.ts:488](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L488)
+[misskey.d.ts:492](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L492)
 
 ***
 
@@ -52,13 +52,13 @@ render(children): void
 
 レンダー関数
 
-`Ui.root.update({})`の糖衣構文です。
+`Ui:root.update({})`の糖衣構文です。
 
 #### パラメーター
 
 | 引数 | 型 | 説明 |
 | :------ | :------ | :------ |
-| `children` | `arr`\<[`IUiComponent`](../interfaces/IUiComponent.md)\<`obj`, `str`\>\> | コンポーネント |
+| `children` | [`IUiComponent`](../interfaces/IUiComponent.md)\<`ComponentOption`, `str`\>[] | コンポーネント |
 
 #### 返り値
 
@@ -66,4 +66,4 @@ render(children): void
 
 #### Source
 
-[misskey.d.ts:483](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L483)
+[misskey.d.ts:487](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L487)

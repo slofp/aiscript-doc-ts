@@ -35,7 +35,7 @@ sleep(time): void
 
 #### Source
 
-[std.d.ts:587](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L587)
+[std.d.ts:587](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L587)
 
 ***
 
@@ -59,7 +59,7 @@ to_str(v): str
 
 #### Source
 
-[std.d.ts:582](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L582)
+[std.d.ts:582](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L582)
 
 ***
 
@@ -96,4 +96,4 @@ vで与えられた型の名前、str型が返ります。
 
 #### Source
 
-[std.d.ts:577](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L577)
+[std.d.ts:577](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L577)

@@ -32,7 +32,7 @@ date を渡した場合、_date_に対応する日、
 
 #### Source
 
-[std.d.ts:685](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L685)
+[std.d.ts:685](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L685)
 
 ***
 
@@ -59,7 +59,7 @@ date を渡した場合、_date_に対応する時、
 
 #### Source
 
-[std.d.ts:693](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L693)
+[std.d.ts:693](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L693)
 
 ***
 
@@ -86,7 +86,7 @@ date を渡した場合、_date_に対応する分、
 
 #### Source
 
-[std.d.ts:701](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L701)
+[std.d.ts:701](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L701)
 
 ***
 
@@ -113,7 +113,7 @@ date を渡した場合、_date_に対応する月、
 
 #### Source
 
-[std.d.ts:677](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L677)
+[std.d.ts:677](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L677)
 
 ***
 
@@ -131,7 +131,7 @@ now(): num
 
 #### Source
 
-[std.d.ts:661](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L661)
+[std.d.ts:661](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L661)
 
 ***
 
@@ -156,7 +156,7 @@ parse(date): num
 
 #### Source
 
-[std.d.ts:715](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L715)
+[std.d.ts:715](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L715)
 
 ***
 
@@ -183,7 +183,7 @@ date を渡した場合、_date_に対応する秒、
 
 #### Source
 
-[std.d.ts:709](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L709)
+[std.d.ts:709](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L709)
 
 ***
 
@@ -210,4 +210,4 @@ date を渡した場合、_date_に対応する年、
 
 #### Source
 
-[std.d.ts:669](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L669)
+[std.d.ts:669](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L669)

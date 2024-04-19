@@ -34,7 +34,7 @@ button(options, id?): IUiComponent<ButtonComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:427](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L427)
+[misskey.d.ts:431](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L431)
 
 ***
 
@@ -59,7 +59,7 @@ buttons(options, id?): IUiComponent<ButtonsComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:433](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L433)
+[misskey.d.ts:437](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L437)
 
 ***
 
@@ -84,7 +84,7 @@ container(options, id?): IUiComponent<ContainerComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:391](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L391)
+[misskey.d.ts:395](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L395)
 
 ***
 
@@ -109,7 +109,7 @@ folder(options, id?): IUiComponent<FolderComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:451](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L451)
+[misskey.d.ts:455](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L455)
 
 ***
 
@@ -134,7 +134,7 @@ MFMテキストコンポーネント
 
 #### Source
 
-[misskey.d.ts:403](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L403)
+[misskey.d.ts:407](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L407)
 
 ***
 
@@ -159,7 +159,7 @@ numberInput(options, id?): IUiComponent<NumberInputComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:421](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L421)
+[misskey.d.ts:425](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L425)
 
 ***
 
@@ -184,7 +184,7 @@ postForm(options, id?): IUiComponent<PostFormComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:463](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L463)
+[misskey.d.ts:467](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L467)
 
 ***
 
@@ -209,7 +209,7 @@ postFormButton(options, id?): IUiComponent<PostFormButtonComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:457](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L457)
+[misskey.d.ts:461](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L461)
 
 ***
 
@@ -234,7 +234,7 @@ select(options, id?): IUiComponent<SelectComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:445](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L445)
+[misskey.d.ts:449](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L449)
 
 ***
 
@@ -259,7 +259,7 @@ switch(options, id?): IUiComponent<SwitchComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:439](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L439)
+[misskey.d.ts:443](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L443)
 
 ***
 
@@ -284,7 +284,7 @@ text(options, id?): IUiComponent<TextComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:397](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L397)
+[misskey.d.ts:401](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L401)
 
 ***
 
@@ -309,7 +309,7 @@ textInput(options, id?): IUiComponent<TextInputComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:415](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L415)
+[misskey.d.ts:419](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L419)
 
 ***
 
@@ -334,4 +334,4 @@ textarea(options, id?): IUiComponent<TextareaComponentOption, str>
 
 #### Source
 
-[misskey.d.ts:409](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/misskey.d.ts#L409)
+[misskey.d.ts:413](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/misskey.d.ts#L413)

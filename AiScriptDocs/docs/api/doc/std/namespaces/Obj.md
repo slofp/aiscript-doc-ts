@@ -29,7 +29,7 @@ copy(v): obj
 
 #### Source
 
-[std.d.ts:834](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L834)
+[std.d.ts:834](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L834)
 
 ***
 
@@ -54,7 +54,7 @@ get(v, key): any
 
 #### Source
 
-[std.d.ts:816](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L816)
+[std.d.ts:816](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L816)
 
 ***
 
@@ -79,7 +79,7 @@ has(v, key): bool
 
 #### Source
 
-[std.d.ts:829](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L829)
+[std.d.ts:829](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L829)
 
 ***
 
@@ -103,7 +103,7 @@ keys(v): arr<str>
 
 #### Source
 
-[std.d.ts:799](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L799)
+[std.d.ts:799](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L799)
 
 ***
 
@@ -127,7 +127,7 @@ kvs(v): arr<[str, any]>
 
 #### Source
 
-[std.d.ts:810](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L810)
+[std.d.ts:810](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L810)
 
 ***
 
@@ -152,7 +152,7 @@ merge(o1, o2): obj
 
 #### Source
 
-[std.d.ts:840](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L840)
+[std.d.ts:840](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L840)
 
 ***
 
@@ -181,7 +181,7 @@ set(
 
 #### Source
 
-[std.d.ts:823](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L823)
+[std.d.ts:823](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L823)
 
 ***
 
@@ -213,7 +213,7 @@ vals<T>(v): arr<T>
 
 ##### Source
 
-[std.d.ts:804](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L804)
+[std.d.ts:804](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L804)
 
 #### vals(v)
 
@@ -233,4 +233,4 @@ vals(v): arr<any>
 
 ##### Source
 
-[std.d.ts:805](https://github.com/slofp/aitslib/blob/c68ee63df45b36b0270b35442b084a226b762eeb/src/std.d.ts#L805)
+[std.d.ts:805](https://github.com/slofp/aitslib/blob/a951a81256505be593b745decf74b16c08c3727f/src/std.d.ts#L805)
